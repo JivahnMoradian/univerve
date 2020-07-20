@@ -1,0 +1,292 @@
+*
+{
+  font-size: 1.5vw;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.banner
+{
+  position: absolute;
+  background-color: deepskyblue;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 10vw;
+}
+
+.uvv > img
+{
+  position: absolute;
+  top: 0vw;
+  left: 37%;
+  z-index: 1;
+  width: 20%;
+  object-fit: fill;
+  padding: 3vw;
+  background-color: white;
+}
+
+img
+{
+  object-fit: contain;
+}
+
+.navigation
+{
+  position: fixed;
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  top : 0;
+  left: 0;
+}
+
+.section
+{
+  padding: 1vw;
+  font-weight: bold;
+}
+
+.sectionplus
+{
+  display: none;
+  position: absolute;
+  width: 15%;
+  right: 0;
+  text-align: center;
+  background-color: deepskyblue;
+}
+
+.sectionplus *
+{
+  font-size: 1vw;
+}
+
+.section:hover .sectionplus
+{
+  display: block;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover
+{
+  color: blue;
+}
+
+body
+{
+  background-color: darkblue;
+  position: relative;
+  margin: 0;
+}
+
+main
+{
+  position: absolute;
+  width: 60%;
+  top: 10vw;
+  left: 15%;
+  z-index: -1;
+  background-color: white;
+  padding: 5%;
+  padding-top: 12%;
+}
+
+main > *
+{
+  padding-bottom: 4vw;
+}
+
+.slogan
+{
+  text-align: center;
+  font-family: cursive;
+  position: absolute;
+  top: 15vw;
+  left: 30%;
+  width: 40%;
+}
+
+.title
+{
+  font-size: 2.5vw;
+  font-weight: bold;
+  padding: 3vw 0 3vw 0;
+  border-top: 2px solid black;
+}
+
+.about
+{
+
+}
+
+.spacer
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacer > img
+{
+  width: 30%;
+  padding-top: 2vw;
+}
+
+.text
+{
+  width: 60%;
+  padding: 0 2vw;
+  margin-bottom: 3vw;
+}
+
+.text-full
+{
+  width: 150%;
+}
+
+.services
+{
+
+}
+
+.team
+{
+
+}
+
+.person
+{
+  font-weight: bold;
+  font-size: 1.75vw;
+  margin-bottom: 4vw;
+}
+
+.name
+{
+  font-weight: bold;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.surround
+{
+  padding: 2vw;
+  border-radius: 1vw;
+}
+
+.service-head
+{
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 0.3vw 0.3vw 0 0.3vw;
+}
+
+.service-type
+{
+  display: inline-block;
+  outline: none;
+  width: 16.6667%;
+  padding: 1vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2vw;
+  background-color: deepskyblue;
+  border: 0.1vw solid black;
+  border-bottom: 0.3vw solid black;
+  margin: 0;
+}
+
+.service-type:hover
+{
+  background-color: darkblue  !important;
+  color: white                !important;
+  cursor: pointer             !important;
+}
+
+.description
+{
+  position: relative;
+  background-color: white;
+  height: 110vw;
+}
+
+.type
+{
+  position: absolute;
+  top: 6.75vw;
+  left: 0;
+  display: none;
+  padding: 4vw;
+}
+
+.quote
+{
+  background: linear-gradient(to bottom right, darkblue, purple);
+  border-radius: 4vw;
+  padding: 2vw;
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  color: white;
+}
+
+.motivation
+{
+
+}
+
+.offer
+{
+
+}
+
+.type > *
+{
+  margin-top: 4vw;
+}
+
+.subtitle
+{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.examples
+{
+
+}
+
+.example
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 3vw 0;
+}
+
+.example > *
+{
+  width: 30%;
+  font-size: 1.2vw;
+  padding: 1vw;
+  text-align: center;
+  border-radius: 3vw;
+}
+
+.problem
+{
+  background-color: crimson;
+}
+
+.solution
+{
+  background-color: limegreen;
+}
