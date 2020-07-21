@@ -223,11 +223,11 @@ main > *
 {
   .description
   {
-    height: 130vw;
+    height: 140vw;
   }
   .example > *
   {
-    max-height: 17vw;
+    max-height: 18vw;
   }
 }
 
