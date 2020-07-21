@@ -224,6 +224,7 @@ main > *
   .description
   {
     height: 150vw;
+    background-color: pink;
   }
 }
 
