@@ -180,6 +180,8 @@ main > *
 {
   padding: 2vw;
   border-radius: 1vw;
+  max-width: 100%;
+  background-color: pink;
 }
 
 .service-head
