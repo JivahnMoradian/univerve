@@ -223,11 +223,15 @@ main > *
 {
   .description
   {
-    height: 140vw;
+    height: 145vw;
   }
   .example > *
   {
     max-height: 18vw;
+  }
+  .service-type
+  {
+    font-size: 1.1vw;
   }
 }
 
