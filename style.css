@@ -223,8 +223,11 @@ main > *
 {
   .description
   {
-    height: 150vw;
-    background-color: pink;
+    height: 125vw;
+  }
+  .example > *
+  {
+    max-height: 10vw;
   }
 }
 
